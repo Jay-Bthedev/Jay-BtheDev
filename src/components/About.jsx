@@ -4,7 +4,7 @@ import './About.css';
 import profileImg from '../assets/joba image.png';
 const About = () => {
   return (
-    <section className="about" id="about">
+    <section className="about" id="about" data-aos="fade-right">
       <div className="about-img">
         <img src={profileImg} alt="About Me" />
       </div>

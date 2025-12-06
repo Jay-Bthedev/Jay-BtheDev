@@ -5,13 +5,13 @@ import { FaGithub, FaTwitter, FaTelegram, FaEnvelope, FaLinkedin } from 'react-i
 
 
 
-import img1 from '../assets/j-removebg-preview.png'; 
-import img2 from '../assets/joba_image-removebg-preview.png'; 
+import img1 from '../assets/joba_image-removebg-preview.png'; 
+import img2 from '../assets/j-removebg-preview.png'; 
 const Hero = () => {
   const [currentImg, setCurrentImg] = useState(img1);
 
   return (
-    <section className="home" id="home">
+    <section className="home" id="home" data-aos="fade-right">
       <div className="home-text">
         <div className="slide">
           <span className="one">Hi, I'm</span>

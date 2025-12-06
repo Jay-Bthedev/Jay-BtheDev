@@ -43,7 +43,7 @@ const featuresData = [
 
 const Features = () => {
   return (
-    <section className="features" id="features">
+    <section className="features" id="features" data-aos="fade-up">
       <div className="main-text">
         <p>FEATURES</p>
         <h2>What I Do</h2>

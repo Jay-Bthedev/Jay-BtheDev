@@ -7,6 +7,8 @@
     padding: 70px 15%;
     box-shadow: 0 10px   rgba(0, 0, 0, 0.142);
 border-radius: 10px;
+position: relative;
+z-index: 8;
 }
 
 .about-img img {

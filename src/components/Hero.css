@@ -100,7 +100,7 @@ z-index: 999;
 
 /* Animation for Image Swap */
 .fade-effect {
-    animation: popIn 0.8s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    animation: popIn 2.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
 }
 
 @keyframes popIn {
