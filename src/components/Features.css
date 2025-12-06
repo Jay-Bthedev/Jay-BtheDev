@@ -12,7 +12,11 @@ z-index: 99;
     margin-bottom: 4rem;
 }
 
-.main-text p { color: #a9adb6; font-size: 15px; margin-bottom: 10px; }
+.main-text .feat {
+     color: #3685B5; 
+    font-size: 15px; 
+    margin-bottom: 10px; 
+}
 .main-text h2 { font-size: 2.5rem; color: #fff; font-weight: 700; }
 
 .features-content {

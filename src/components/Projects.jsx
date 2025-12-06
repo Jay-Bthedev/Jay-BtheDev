@@ -42,7 +42,7 @@ const Projects = () => {
   return (
     <section className="portfolio" id="projects" data-aos="fade-up">
       <div className="main-text">
-        <p>VIEW MY PROJECTS</p>
+        <p className='view'>VIEW MY PROJECTS</p>
         <h2>My Projects</h2>
       </div>
 

@@ -12,8 +12,8 @@ z-index: 9;
     margin-bottom: 4rem;
 }
 
-.main-text p {
-    color: #fff;
+.main-text .view {
+    color: #3685B5;
     font-size: 15px;
     margin-bottom: 10px;
 }
