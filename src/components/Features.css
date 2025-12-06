@@ -1,0 +1,61 @@
+.features {
+    background: #061826;
+    padding: 70px 15%; 
+     box-shadow: 0 10px   rgba(0, 0, 0, 0.142);
+border-radius: 10px;
+position:relative ;
+z-index: 99;
+}
+
+.main-text {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.main-text p { color: #a9adb6; font-size: 15px; margin-bottom: 10px; }
+.main-text h2 { font-size: 2.5rem; color: #fff; font-weight: 700; }
+
+.features-content {
+    display: grid;
+   
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2.5rem;
+}
+
+.box {
+    background: #061826;
+    padding: 35px 25px;
+    border-radius: 12px;
+    transition: all 0.45s ease;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.box:hover {
+    transform: translateY(-8px);
+    background: #3685B5;
+}
+
+.icon-box { font-size: 40px; margin-bottom: 20px; color: #3685B5; }
+.box:hover .icon-box { color: #fff; }
+.box h3 { font-size: 1.3rem; font-weight: 600; margin-bottom: 15px; color: #fff; }
+.box p { color: #a9adb6; font-size: 1rem; line-height: 1.6; }
+.box:hover p, .box:hover h3 { color: #fff; }
+
+
+@media (max-width: 950px) {
+    .features {
+    
+        padding: 50px 5%;
+    }
+    
+    .features-content {
+       
+         grid-template-columns: 1fr;
+    }
+}
+
+
+
+
+

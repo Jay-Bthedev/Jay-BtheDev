@@ -1,0 +1,61 @@
+.about {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 3rem;
+    background: #061826;
+    padding: 70px 15%;
+    box-shadow: 0 10px   rgba(0, 0, 0, 0.142);
+border-radius: 10px;
+}
+
+.about-img img {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* 👇 STYLING FOR "ABOUT ME" HEADER */
+.about-text h5 {
+    color: #3685B5; /* Your Blue Accent Color */
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 2px; /* Spreads the letters out */
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+/* 👇 STYLING FOR THE MAIN TITLE */
+.about-text h2 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 25px;
+    color: #fff;
+}
+
+.about-text p {
+    color: #fff;
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 3rem;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 950px) {
+    .about {
+        grid-template-columns: 1fr;
+        text-align: center;
+        padding: 60px 5%;
+    }
+
+    .about-img {
+        order: 2; /* Moves image to bottom on mobile */
+        margin-top: 20px;
+    }
+    
+    .about-text h2 {
+        font-size: 2rem; /* Smaller text on mobile */
+    }
+}

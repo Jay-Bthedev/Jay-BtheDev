@@ -1,0 +1,120 @@
+.portfolio {
+    background: #061826;
+    padding: 70px 15%; 
+    box-shadow: 0 10px   rgba(0, 0, 0, 0.142);
+border-radius: 10px;
+position: relative;
+z-index: 9;
+}
+
+.main-text {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.main-text p {
+    color: #fff;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.main-text h2 {
+    font-size: 2.5rem;
+    color: #fff;
+    font-weight: 700;
+}
+
+.portfolio-content {
+    display: grid;
+   
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
+    gap: 2rem;
+}
+
+.row {
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    background: #061826;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    height: 400px;
+}
+
+/* Image Box and Image Styles */
+.project-img-box {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.project-img-box img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    object-position: top;
+    transition: transform 5s ease-in-out;
+}
+
+.row:hover .project-img-box img {
+    transform: translateY(calc(-100% + 400px));
+}
+
+/* Layer Styles (Same as before) */
+.layer {
+    width: 100%;
+    height: 0;
+    background: linear-gradient(rgba(0,0,0,0.6), #3685B5);
+    position: absolute;
+    border-radius: 15px;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 40px;
+    transition: height 0.5s;
+}
+
+.layer h5 { color: #fff; font-size: 20px; font-weight: 600; margin-bottom: 15px; }
+.layer p { color: #fff; font-size: 1rem; line-height: 1.8; }
+.layer a {
+    color: #3685B5; margin-top: 20px; display: inline-flex; justify-content: center;
+    align-items: center; width: 50px; height: 50px; background: #fff;
+    border-radius: 50%; text-decoration: none;
+}
+.row:hover .layer { height: 100%; }
+
+
+@media (max-width: 950px) {
+    
+    .portfolio {
+       
+        padding: 50px 5%; 
+    }
+    
+    .portfolio-content {
+        
+        grid-template-columns: 1fr; 
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
