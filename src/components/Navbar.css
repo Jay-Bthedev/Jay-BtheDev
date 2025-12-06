@@ -139,7 +139,7 @@ object-fit: contain;
     top: -1000px;
     right: 0;
     width: 100%;
-    height: 120vh;
+    height: 100vh;
     background:  #061826;
     display: flex;
     flex-direction: column;
