@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './Navbar.css';
-import { FaBars, FaTimes, FaSun, FaMoon } from 'react-icons/fa'; // Import Sun & Moon
+import { FaBars, FaTimes, FaSun, FaMoon } from 'react-icons/fa'; 
 import logoImg from '../assets/j-removebg-preview.png'; 
 
 const Navbar = () => {
@@ -42,7 +42,7 @@ const Navbar = () => {
 
       <ul className={`navlist ${isOpen ? 'active' : ''}`}>
         <li><a href="#home" onClick={closeMenu}>Home</a></li>
-        <li><a href="#portfolio" onClick={closeMenu}>Portfolio</a></li>
+        <li><a href="#features" onClick={closeMenu}>Portfolio</a></li>
         <li><a href="#resume" onClick={closeMenu}>Resume</a></li>
         <li><a href="#projects" onClick={closeMenu}>Projects</a></li>
         <li><a href="#about" onClick={closeMenu}>About me</a></li>

@@ -42,7 +42,7 @@ const Hero = () => {
 
         <div className="socials">
             <a href="mailto:jobaayoola@gmail.com"><FaEnvelope /></a>
-            <a href="https://x.com/OracleX_126" target="_blank" rel="noreferrer"><FaTwitter /></a>
+            <a href="https://x.com/blckboyj" target="_blank" rel="noreferrer"><FaTwitter /></a>
             <a href="https://t.me/OracleX_on_TG" target="_blank" rel="noreferrer"><FaTelegram /></a>
             <a href="https://github.com/jay-bthedev" target="_blank" rel="noreferrer"><FaGithub /></a>
         </div>

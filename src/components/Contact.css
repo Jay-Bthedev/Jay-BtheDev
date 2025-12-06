@@ -84,4 +84,9 @@ z-index: 5;
     .contact {
         padding: 50px 5%;
     }
+.btn{
+    display: flex;
+    justify-self: center;
+}
+
 }

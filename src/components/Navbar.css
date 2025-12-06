@@ -115,7 +115,7 @@ object-fit: contain;
 }
 
 .theme-btn:hover .theme-icon {
-    color: #3685B5; /* Icon turns blue on hover */
+    color: #3685B5; 
 }
 
 .right-header {

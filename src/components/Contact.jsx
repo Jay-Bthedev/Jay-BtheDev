@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react';
 import './Contact.css';
-import emailjs from '@emailjs/browser'; // Make sure you ran: npm install @emailjs/browser
+import emailjs from '@emailjs/browser'; 
 
 const Contact = () => {
   const form = useRef();
@@ -10,11 +10,10 @@ const Contact = () => {
     e.preventDefault();
     setStatus("Sending...");
 
-    // ⚠️ REPLACE THESE WITH YOUR ACTUAL EMAILJS KEYS
-    // Go to emailjs.com to get them if you haven't yet
-    const SERVICE_ID = "YOUR_SERVICE_ID";
-    const TEMPLATE_ID = "YOUR_TEMPLATE_ID";
-    const PUBLIC_KEY = "YOUR_PUBLIC_KEY";
+    
+    const SERVICE_ID = "service_urwmjjk";
+    const TEMPLATE_ID = "template_2vkjgbb";
+    const PUBLIC_KEY = "gY7yiMT4q8D-RMZyP";
 
     emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, form.current, PUBLIC_KEY)
       .then((result) => {
