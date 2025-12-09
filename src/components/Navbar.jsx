@@ -42,7 +42,7 @@ const Navbar = () => {
 
       <ul className={`navlist ${isOpen ? 'active' : ''}`}>
         <li><a href="#home" onClick={closeMenu}>Home</a></li>
-        <li><a href="#features" onClick={closeMenu}>Portfolio</a></li>
+        <li><a href="#features" onClick={closeMenu}>Services</a></li>
         <li><a href="#resume" onClick={closeMenu}>Resume</a></li>
         <li><a href="#projects" onClick={closeMenu}>Projects</a></li>
         <li><a href="#about" onClick={closeMenu}>About me</a></li>

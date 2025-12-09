@@ -1,5 +1,6 @@
 .about {
-    display: grid;
+    display: flex;
+    flex-direction: column;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 3rem;
@@ -9,10 +10,11 @@
 border-radius: 10px;
 position: relative;
 z-index: 8;
+
 }
 
 .about-img img {
-    width: 100%;
+    width: 300px;
     max-width: 450px;
     height: auto;
     border-radius: 10px;
@@ -37,11 +39,31 @@ z-index: 8;
     color: #fff;
 }
 
+
 .about-text p {
     color: #fff;
     font-size: 1rem;
     line-height: 1.8;
     margin-bottom: 3rem;
+}
+.about-me{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+
+justify-items: center;
+
+}
+.about-me-text{
+   width: 50%;
+   
+}
+
+.btn{
+  margin-top: 40px;
+display: flex;
+justify-self: center;
 }
 
 /* Mobile Responsiveness */
@@ -53,11 +75,30 @@ z-index: 8;
     }
 
     .about-img {
-        order: 2; /* Moves image to bottom on mobile */
+        order: 2;
         margin-top: 20px;
     }
     
     .about-text h2 {
-        font-size: 2rem; /* Smaller text on mobile */
+        font-size: 2rem; 
     }
+    .about-me{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 40px;
+        align-items: center;
+    }
+    .about-me-text{
+    width: 100%;
+}
+.about-img img {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    border-radius: 10px;
+}
+.btn{
+    margin-top: 0;
+}
+
 }

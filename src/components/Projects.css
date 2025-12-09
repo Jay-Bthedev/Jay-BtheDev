@@ -38,7 +38,8 @@ z-index: 9;
     background: #061826;
     cursor: pointer;
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-    height: 400px;
+    height: 182px;
+   
 }
 
 /* Image Box and Image Styles */
@@ -59,7 +60,7 @@ z-index: 9;
 }
 
 .row:hover .project-img-box img {
-    transform: translateY(calc(-100% + 400px));
+    transform: translateY(calc(-100% + 182px));
 }
 
 /* Layer Styles (Same as before) */
@@ -102,6 +103,17 @@ z-index: 9;
         
         grid-template-columns: 1fr; 
     }
+    .row {
+        width: fit-content;
+    }
+}
+@media (max-width: 325px) {
+    .row{
+        height: 150px;
+    }
+    .row:hover .project-img-box img {
+    transform: translateY(calc(-100% + 150px));
+}
 }
 
 
