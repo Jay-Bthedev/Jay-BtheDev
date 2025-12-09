@@ -6,7 +6,8 @@ import swimImg from '../assets/swimming.png';
 import ecommerceImg from '../assets/Ecommerce.png';
 import pepsiImg from '../assets/pepsi.png';
 import gameImg from '../assets/colorgame.png';
-
+import game2Img from '../assets/countergame.png';
+import marketImg from '../assets/Market.png';
 const projectsData = [
   {
     id: 1,
@@ -24,18 +25,36 @@ const projectsData = [
   },
   {
     id: 3,
+    title: "Market women Website",
+    desc: "Website For Africa's Market women",
+    img: marketImg , 
+    link: "https://jay-bthedev.github.io/Market-Women-Website/"
+  },
+  
+  {
+    id: 4,
     title: "Pepsi Site",
     desc: "Website for Pepsi",
     img: pepsiImg , 
     link: "https://jay-bthedev.github.io/Pepsi-Website/"
   },
   {
-    id: 4,
+    id: 5,
     title: "Color Game",
     desc: "Interactive Game",
     img: gameImg, 
     link: "https://jay-bthedev.github.io/Color-Game/index.html"
+  },
+   {
+    id: 6,
+    title: "Counter Game",
+    desc: "Interactive Game",
+    img: game2Img, 
+    link: "https://jay-bthedev.github.io/Counter-Game/"
   }
+   
+
+  
 ];
 
 const Projects = () => {
