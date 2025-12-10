@@ -20,7 +20,7 @@ body {
 
 /*  Change Backgrounds */
 body.light-mode {
-    background-color: #f0f2f5; /* Light Grey/White background */
+    background-color: #f0f2f5; /* White background */
     color: #061826;            
 }
 
@@ -38,22 +38,41 @@ body.light-mode header.sticky {
 body.light-mode h1, 
 body.light-mode h2, 
 body.light-mode h3, 
-body.light-mode h5,
-body.light-mode span,
+body.light-mode h5{
+    color: #061826 !important;
+}
+body.light-mode span{
+    color: #061826 ;
+}
+body.light-mode .typewriter-text span{
+    color: #3685B5;
+}
 body.light-mode .logo {
-    color: #061826 !important; /* Force headings to be dark */
+    color: #061826 ; 
 }
 
-body.light-mode p,
+
+body.light-mode p{
+    color: #061826 !important;
+}
 body.light-mode li a {
-    color: #061826 !important; /* Darker grey for paragraphs */
+    color: #061826 ; /* Darker grey for paragraphs */
 }
 
 /* Change Cards/Boxes */
 body.light-mode .box { 
     background: #ffffff;      
     box-shadow: 0 5px 20px rgba(0,0,0,0.1); 
+    
 }
+body.light-mode .box:hover{
+    background-color: #3685B5;
+    color: #061826;
+}
+body.light-mode .box:hover .icon-box{
+    color: #061826;
+}
+
 
 body.light-mode .input-box input,
 body.light-mode .input-box textarea {
@@ -67,21 +86,30 @@ body.light-mode .navlist li a {
 }
 
 /*  Fix Navbar Links on Hover */
-body.light-mode .navlist li a:hover {
-    color: #3685B5; /* Keep the Blue Accent on Hover */
+body.light-mode .navlist li a:hover{
+    color: #3685B5;
+    
+}
+body.light-mode .logo:hover{
+    color: #3685B5;
 }
 
 /* Fix the Logo Text ("JOBA") */
 body.light-mode .logo {
     color: #061826;
 }
+body.light-mode .logo:hover{
+    color: #3685B5;
+    
+}
 
-/* Fix the Hamburger Menu Icon (Mobile) */
+
+/*  Hamburger Menu Icon (Mobile) */
 body.light-mode .menu-icon {
     color: #061826;
 }
 
-/*  Ensures Sticky Header Background is White */
+/*   Sticky Header Background */
 body.light-mode header.sticky {
     background: #ffffff;
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); /* Lighter shadow */
@@ -142,3 +170,4 @@ body.light-mode .input-box textarea::placeholder {
 body.light-mode .contact .sub-text {
     color: #061826;
 }
+

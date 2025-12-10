@@ -31,7 +31,11 @@ header.sticky {
   font-weight: 700;
   text-decoration: none;
 }
-
+.logo:hover{
+  color: #3685B5;
+ 
+ 
+}
 
 .logo img {
   width: 30px;
@@ -42,6 +46,9 @@ border: inset grey;
 padding: 2px 2px;
 object-fit: contain;
 }
+.logo img:hover{
+  background-color: #3685B5;
+}
 
 
 .navlist {
@@ -51,6 +58,7 @@ object-fit: contain;
 .navlist li {
   list-style: none;
 }
+
 
 .navlist li a {
   display: inline-block;

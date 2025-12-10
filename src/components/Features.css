@@ -40,11 +40,29 @@ z-index: 99;
     background: #3685B5;
 }
 
-.icon-box { font-size: 40px; margin-bottom: 20px; color: #3685B5; }
-.box:hover .icon-box { color: #fff; }
-.box h3 { font-size: 1.3rem; font-weight: 600; margin-bottom: 15px; color: #fff; }
-.box p { color: #a9adb6; font-size: 1rem; line-height: 1.6; }
-.box:hover p, .box:hover h3 { color: #fff; }
+.icon-box { 
+    font-size: 40px; 
+    margin-bottom: 20px; 
+    color: #3685B5; 
+}
+
+.box:hover .icon-box { 
+    color: #fff; 
+}
+.box h3 { 
+    font-size: 1.3rem; 
+    font-weight: 600; 
+    margin-bottom: 15px; 
+    color: #fff; 
+}
+.box p { 
+    color: #a9adb6; 
+    font-size: 1rem; 
+    line-height: 1.6; 
+}
+.box:hover p, .box:hover h3 {
+    
+    color: #fff; }
 
 
 @media (max-width: 950px) {
