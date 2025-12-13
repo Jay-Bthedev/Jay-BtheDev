@@ -40,7 +40,7 @@ const Navbar = ({ openResume }) => {
 
       <ul className={`navlist ${isOpen ? 'active' : ''}`}>
         <li><a href="#home" onClick={closeMenu}>Home</a></li>
-        <li><a href="#portfolio" onClick={closeMenu}>Portfolio</a></li>
+        <li><a href="#features" onClick={closeMenu}>Services</a></li>
         
         {/* 👇 2. UPDATE THE RESUME LINK HERE */}
         <li>
