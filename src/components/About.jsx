@@ -2,7 +2,7 @@ import React from 'react';
 import './About.css';
 
 import profileImg from '../assets/joba image.png';
-const About = () => {
+const About = ({ openResume }) => {
   return (
     <section className="about" id="about" data-aos="fade-right">
      
@@ -30,7 +30,7 @@ const About = () => {
       </div>
 
 </div>
-        <a href="#" className="btn">Download CV</a>
+        <a className="btn" onClick={openResume}>Download Resume</a>
       </div>
     </section>
   );
