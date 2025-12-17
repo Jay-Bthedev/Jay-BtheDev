@@ -19,7 +19,7 @@ const ResumeModal = ({ isOpen, onClose }) => {
           <p>Front-End Developer & UI/UX Specialist</p>
           <span className="location">Ibadan, Nigeria</span>
           
-          {/* 👇 NEW: Open to Work Badge */}
+          {/* Open to Work Badge */}
           <div className="status-badge">
             <FaCheckCircle /> Open to: Full-time, Remote, Freelance & Internships
           </div>

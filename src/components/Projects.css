@@ -63,7 +63,7 @@ z-index: 9;
     transform: translateY(calc(-100% + 145px));
 }
 
-/* Layer Styles (Same as before) */
+/* Layer Styles*/
 .layer {
     width: 100%;
     height: 0;

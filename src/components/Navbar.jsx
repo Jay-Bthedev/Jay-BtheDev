@@ -3,13 +3,13 @@ import './Navbar.css';
 import { FaBars, FaTimes, FaSun, FaMoon } from 'react-icons/fa';
 import logoImg from '../assets/j-removebg-preview.png'; 
 
-// 👇 1. ADD THIS inside the curly brackets
+
 const Navbar = ({ openResume }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [theme, setTheme] = useState('dark');
   const [isScrolled, setIsScrolled] = useState(false);
 
-  // ... (Your existing scroll and theme functions stay here) ...
+  
   const toggleMenu = () => setIsOpen(!isOpen);
   const closeMenu = () => setIsOpen(false);
 
@@ -42,12 +42,12 @@ const Navbar = ({ openResume }) => {
         <li><a href="#home" onClick={closeMenu}>Home</a></li>
         <li><a href="#features" onClick={closeMenu}>Services</a></li>
         
-        {/* 👇 2. UPDATE THE RESUME LINK HERE */}
+       
         <li>
             <a href="#" onClick={(e) => {
-                e.preventDefault(); // Stop page from jumping
-                openResume();       // Open the popup
-                closeMenu();        // Close mobile menu
+                e.preventDefault(); 
+                openResume();      
+                closeMenu();        
             }}>Resume</a>
         </li>
 

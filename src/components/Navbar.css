@@ -105,15 +105,15 @@ object-fit: contain;
     justify-content: center;
     width: 45px;
     height: 45px;
-    background: #3685B5; /* Blue background */
-    border-radius: 50%;   /* Circle */
+    background: #3685B5; 
+    border-radius: 50%;  
     cursor: pointer;
     transition: all 0.4s ease;
-    margin-right: 15px;   /* Space from the hamburger menu */
+    margin-right: 15px;  
 }
 
 .theme-btn:hover {
-    transform: scale(1.1); /* Pop effect */
+    transform: scale(1.1); 
     background: #fff;
 }
 

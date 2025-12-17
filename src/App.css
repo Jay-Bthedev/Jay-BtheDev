@@ -14,9 +14,7 @@ body {
   background-color: #061826; 
   color: #fff; 
 }
-/* ===========================
-   LIGHT MODE OVERRIDES 
-   =========================== */
+/*LIGHT MODE OVERRIDES*/
 
 /*  Change Backgrounds */
 body.light-mode {

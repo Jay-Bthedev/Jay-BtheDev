@@ -20,12 +20,12 @@ z-index: 8;
     border-radius: 10px;
 }
 
-/*  STYLING FOR "ABOUT ME" HEADER */
+/*  HEADER STYLING*/
 .about-text h5 {
-    color: #3685B5; /* Your Blue Accent Color */
+    color: #3685B5; 
     font-size: 16px;
     font-weight: 600;
-    letter-spacing: 2px; /* Spreads the letters out */
+    letter-spacing: 2px;
     margin-bottom: 10px;
     text-transform: uppercase;
 }

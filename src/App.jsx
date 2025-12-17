@@ -16,10 +16,10 @@ function App() {
  const [isResumeOpen, setIsResumeOpen] = useState(false);
   useEffect(() => {
     AOS.init({
-      duration: 1200, // How long the animation lasts 
-      offset: 100,    // Trigger animation 100px before element is visible
+      duration: 1200, // animation timing 
+      offset: 100,    
       easing: 'ease-in-out', // Smoothness
-      once: true,     // false = animate every time you scroll up/down. true = only once.
+      once: false,     // false = animate every time you scroll up/down. true = only once.
     });
   }, []);
 
