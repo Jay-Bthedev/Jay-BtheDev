@@ -6,8 +6,9 @@ import swimImg from '../assets/swimming.png';
 import ecommerceImg from '../assets/Ecommerce.png';
 import pepsiImg from '../assets/pepsi.png';
 import gameImg from '../assets/colorgame.png';
-import game2Img from '../assets/countergame.png';
+import TodoImg from '../assets/Todo.png';
 import marketImg from '../assets/Market.png';
+
 const projectsData = [
   {
     id: 1,
@@ -47,10 +48,10 @@ const projectsData = [
   },
    {
     id: 6,
-    title: "Counter Game",
-    desc: "Interactive Game",
-    img: game2Img, 
-    link: "https://jay-bthedev.github.io/Counter-Game/"
+    title: "My Todoapp",
+    desc: "Website for Tasks",
+    img: TodoImg, 
+    link: "https://todoapp-ten-snowy.vercel.app/"
   }
    
 
