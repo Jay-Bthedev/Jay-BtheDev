@@ -5,7 +5,7 @@ import { FaExternalLinkAlt } from 'react-icons/fa';
 import swimImg from '../assets/swimming.png';
 import ecommerceImg from '../assets/Ecommerce.png';
 import pepsiImg from '../assets/pepsi.png';
-import gameImg from '../assets/colorgame.png';
+import gameImg from '../assets/Dev-duel.png';
 import TodoImg from '../assets/Todo.png';
 import marketImg from '../assets/Market.png';
 
@@ -41,10 +41,10 @@ const projectsData = [
   },
   {
     id: 5,
-    title: "Color Game",
-    desc: "Interactive Game",
+    title: "Dev-duel",
+    desc: "A cyberpunk strategy game where code meets crypto.",
     img: gameImg, 
-    link: "https://jay-bthedev.github.io/Color-Game/index.html"
+    link: "https://dev-duel-azure.vercel.app/"
   },
    {
     id: 6,
